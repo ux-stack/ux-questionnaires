@@ -1,0 +1,20 @@
+\ProvidesDictionary{sus}{French}
+
+\providetranslation{title}{System Usability Scale}
+\providetranslation{ref}{Ref :}
+\providetranslation{copyright}{System Usability Scale by UX Stack\\~Le document est disponible sous licence Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0)}
+%\providetranslation{summary}{Pour chacune des affirmations suivantes, cochez la case qui décrit le mieux vos réactions au service actuel.}
+\providetranslation{summary}{Veuillez cocher la réponse qui reflète votre réponse spontanée à chaque affirmation. Ne réfléchissez pas trop longtemps à chaque affirmation, et veillez à répondre à chaque affirmation.}
+\providetranslation{disagree}{Pas du tout\\~d'accord}
+\providetranslation{agree}{Tout à fait\\~d'accord}
+\providetranslation{question-1}{1. Je pense que je vais utiliser ce service fréquemment.}
+\providetranslation{question-2}{2. Je trouve ce service inutilement complexe.}
+\providetranslation{question-3}{3. Je pense que ce service est facile à utiliser.}
+\providetranslation{question-4}{4. Je pense que j'aurai besoin de l'aide d’un technicien pour être capable d'utiliser ce service.}
+\providetranslation{question-5}{5. J'ai trouvé que les différentes fonctions de ce service ont été bien intégrées.}
+\providetranslation{question-6}{6. Je pense qu'il y a trop d'incohérence dans ceservice.}
+\providetranslation{question-7}{7. J'imagine que la plupart des gens serait capable d'apprendre à utiliser ce services très rapidement.}
+\providetranslation{question-8}{8. J'ai trouvé ce service trés lourd à utiliser.}
+\providetranslation{question-9}{9. Je me sentais très en confiance en utilisant ce service.}
+\providetranslation{question-10}{10. J'ai besoin d'apprendre beaucoup de choses avant de pouvoir utiliser ce service.}
+

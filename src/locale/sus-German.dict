@@ -1,0 +1,19 @@
+\ProvidesDictionary{sus}{German}
+
+\providetranslation{title}{System Usability Scale}
+\providetranslation{ref}{Ref:}
+\providetranslation{copyright}{System Usability Scale von UX Stack\\~Das Dokument ist unter der Creative Commons Namensnennung-Share Alike 4.0 International (CC BY-SA 4.0) -Lizenz verfügbar}
+%\providetranslation{summary}{Markieren Sie für jede der folgenden Aussagen ein Kästchen, das Ihre heutigen Reaktionen auf den Dienst am besten beschreibt.}
+\providetranslation{summary}{Bitte überprüfen Sie die Antwort, die Ihre sofortige Antwort auf jede Aussage widerspiegelt. Bitte denken Sie nicht zu lange über jede Aussage nach und stellen Sie sicher, dass Sie zu allen Aussagen eine Antwort geben.}
+\providetranslation{disagree}{Stimme\\~überhaupt nicht zu}
+\providetranslation{agree}{Stimme\\~voll zu}
+\providetranslation{question-1}{1. Ich denke, dass ich das System gerne häufig benutzen würde.}
+\providetranslation{question-2}{2. Ich fand das System unnötig komplex.}
+\providetranslation{question-3}{3. Ich fand das System einfach zu benutzen.}
+\providetranslation{question-4}{4. Ich glaube, ich würde die Hilfe einer technisch versierten Person benötigen, um das System benutzen zu können.}
+\providetranslation{question-5}{5. Ich fand, die verschiedenen Funktionen in diesem System waren gut integriert.}
+\providetranslation{question-6}{6. Ich denke, das System enthielt zu viele Inkonsistenzen.}
+\providetranslation{question-7}{7. Ich kann mir vorstellen, dass die meisten Menschen den Umgang mit diesem System sehr schnell lernen.}
+\providetranslation{question-8}{8. Ich fand das System sehr umständlich zu nutzen.}
+\providetranslation{question-9}{9. Ich fühlte mich bei der Benutzung des Systems sehr sicher.}
+\providetranslation{question-10}{10. Ich musste eine Menge lernen, bevor ich anfangen konnte das System zu verwenden.}

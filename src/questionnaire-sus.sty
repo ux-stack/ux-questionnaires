@@ -1,0 +1,102 @@
+%% Copyright 2019 UX Stack
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{questionnaire-sus}[2019/07/05 v0.1.0 uxstack sus style]
+
+%-------------------------------------------------------------------------------
+%                required packages
+%-------------------------------------------------------------------------------
+\RequirePackage[top=1cm, bottom=1cm, left=1cm, right=1cm, includefoot]{geometry}
+\RequirePackage{fmtcount}
+\RequirePackage{ifthen}
+\RequirePackage{fp}
+\RequirePackage{xcolor}
+\RequirePackage{colortbl}
+\RequirePackage[scaled]{helvet}
+\RequirePackage{array}
+\RequirePackage{translator}
+\RequirePackage{components}
+
+\usedictionary{locale/sus}
+
+%-------------------------------------------------------------------------------
+%                overall design commands definitions
+%-------------------------------------------------------------------------------
+
+\fancypagestyle{plain}{
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+    \fancyhf{}
+    \fancyfoot[c]{
+        \parbox[b]{\textwidth}{
+            \centering
+            \scriptsize
+            \translate{copyright}
+        }
+    }
+}
+
+\setlength\parindent{0pt}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\urlstyle{tt}
+
+%% Only if the base font of the document is to be sans serif
+\renewcommand*\familydefault{\sfdefault}
+
+\renewcommand{\title}{\translate{System Usability Scale}}
+\newcommand{\keywords}{sus, ux, system usability scale}
+
+\newcommand*{\questionnaireitem}[1]{%
+    \colorbox{light-gray}{\begin{minipage}[c][1,5cm]{0.70\textwidth}
+        #1
+    \end{minipage}}%
+    \hspace{0.1cm}
+    \colorbox{light-gray}{\begin{minipage}[c][1,5cm]{0.265\textwidth}\centering
+        \begin{tabular}{lllll}
+        \checkbox{1} & \checkbox{2} & \checkbox{3} & \checkbox{4} & \checkbox{5}
+        \end{tabular}
+    \end{minipage}}
+    \hfill\vspace{0.2cm}\\
+}
+
+\renewcommand*{\makequestionnairelogo}{%
+    \includegraphics[width=120pt]{assets/uxstack-logo}%
+    \vspace{0cm}\hfill%
+    \colorbox{light-gray}{\begin{minipage}[c][1cm]{0.265\textwidth}%
+        \topskip0pt
+        \scriptsize{\color{midium-gray}\translate{ref}}
+        \vspace*{\fill}
+    \end{minipage}}
+    \\[+1em]%
+}
+
+\renewcommand*{\makequestionnaireheader}{%
+    {\color{dark-cerulean}\huge{\title}}\\\\%
+    {\color{dark-cerulean}\translate{summary}}\\%
+}
+
+\renewcommand*{\makequestionnaireform}{%
+    \begin{flushright}
+        \begin{minipage}[c][1.1cm]{0.1\textwidth}%
+            {\color{dark-cerulean}\translate{disagree}}
+        \end{minipage}
+        \hspace{1.18cm}
+        \begin{minipage}[c][1.1cm]{0.1\textwidth}%
+            \begin{flushright}
+            {\color{dark-cerulean}\translate{agree}}
+            \end{flushright}
+        \end{minipage}
+    \end{flushright}
+    \vspace{0.05cm}
+    \questionnaireitem{\translate{question-1}}
+    \questionnaireitem{\translate{question-2}}
+    \questionnaireitem{\translate{question-3}}
+    \questionnaireitem{\translate{question-4}}
+    \questionnaireitem{\translate{question-5}}
+    \questionnaireitem{\translate{question-6}}
+    \questionnaireitem{\translate{question-7}}
+    \questionnaireitem{\translate{question-8}}
+    \questionnaireitem{\translate{question-9}}
+    \questionnaireitem{\translate{question-10}}
+}
