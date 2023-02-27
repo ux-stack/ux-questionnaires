@@ -1,0 +1,18 @@
+\ProvidesDictionary{sus}{Spanish}
+
+\providetranslation{title}{System Usability Scale}
+\providetranslation{ref}{Ref:}
+\providetranslation{copyright}{System Usability Scale por UX Stack\\~El documento está disponible bajo la licencia Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)}
+\providetranslation{summary}{Verifique la opción que refleje su respuesta inmediata. No piense demasiado acerca de cada declaración y asegúrese de responder a cada declaración.}
+\providetranslation{disagree}{Totalmente en\\~desacuerdo}
+\providetranslation{agree}{Totalmente\\~de acuerdo}
+\providetranslation{question-1}{1. Me parece que me gustaría utilizar este producto a menudo.}
+\providetranslation{question-2}{2. Encuentro el producto innecesariamente muy complejo.}
+\providetranslation{question-3}{3. Pensé que el producto era fácil de usar.}
+\providetranslation{question-4}{4. Considero que necesitaría el apoyo de un técnico para poder utilizar este producto.}
+\providetranslation{question-5}{5. Encontré que las varias funciones en este producto estaban bien integradas.}
+\providetranslation{question-6}{6. Pensé que había demasiadas inconsistencias en este producto.}
+\providetranslation{question-7}{7. Creía que la mayoría de las personas pueden aprender a utilizar este producto muy rápidamente.}
+\providetranslation{question-8}{8. Encontré el producto muy incómodo de utilizar.}
+\providetranslation{question-9}{9. Me siento muy confiado utilizando el producto.}
+\providetranslation{question-10}{10. Tengo que aprender muchas cosas antes de utilizar este producto.}

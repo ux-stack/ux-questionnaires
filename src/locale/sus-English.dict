@@ -1,0 +1,19 @@
+\ProvidesDictionary{sus}{English}
+
+\providetranslation{title}{System Usability Scale}
+\providetranslation{ref}{Ref:}
+\providetranslation{copyright}{System Usability Scale by UX Stack\\~Document is available under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License}
+%\providetranslation{summary}{For each of the following statements, mark one box that best describes your reactions to the service today.}
+\providetranslation{summary}{Please check the answer that reflects your immediate response to each statement. Dont think too long about each statement. Make sure you respond to every statement.}
+\providetranslation{disagree}{Strongly\\~Disagree}
+\providetranslation{agree}{Strongly\\~Agree}
+\providetranslation{question-1}{1. I think that I would like to use this service frequently.}
+\providetranslation{question-2}{2. I found the service unnecessarily complex.}
+\providetranslation{question-3}{3. I thought the service was easy to use.}
+\providetranslation{question-4}{4. I think that I would need the support of a technical person to be able to use this service.}
+\providetranslation{question-5}{5. I found the various functions in this service were well integrated.}
+\providetranslation{question-6}{6. I thought there was too much inconsistency in this service.}
+\providetranslation{question-7}{7. I would imagine that most people would learn to use this service very quickly.}
+\providetranslation{question-8}{8. I found the service very cumbersome to use.}
+\providetranslation{question-9}{9. I felt very confident using the service.}
+\providetranslation{question-10}{10. I needed to learn a lot of things before I could get going with this service.}

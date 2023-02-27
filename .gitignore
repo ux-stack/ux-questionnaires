@@ -3,3 +3,7 @@
 *.pdf
 .DS_Store
 build/
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+!src/assets/uxstack-logo.pdf

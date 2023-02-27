@@ -1,0 +1,19 @@
+%% Copyright 2019 UX Stack
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{components}[2019/07/05 v0.1.0 uxstack components style]
+
+%% Colors
+
+\definecolor{dark-cerulean}{rgb}{0.03, 0.27, 0.49}
+\definecolor{light-gray}{gray}{0.95}
+\definecolor{midium-gray}{gray}{0.65}
+
+%% Components
+
+\newcommand*{\checkbox}[1]{%
+    \setlength{\fboxsep}{0.5pt}%
+    \setlength{\fboxrule}{1pt}%
+    \fcolorbox{dark-cerulean}{white}{\parbox[c][0.4cm][c]{0.4cm}{\centering\color{midium-gray}#1}}%
+}
+
